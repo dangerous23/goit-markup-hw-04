@@ -7,9 +7,10 @@
   --button-fon-pasiv: #e7e9fc;
   --knopka-fon: #f4f4fd;
   --our-li: #e7e9fc;
-  --card-hover: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  --card-hover: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -177,7 +178,7 @@ ul {
 }
 .blok:hover {
   border: 1px solid var(--knopka-fon);
-  box-shadow: var(--card-hover);
+  box-shadow: var(--card-hover)
 }
 
 .title {
@@ -216,6 +217,9 @@ ul {
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
+}
+.slogan {
+  padding-top: 120px;
 }
 
 /* ---------------------------------------Our team-------------------------------------- */
@@ -344,12 +348,10 @@ ul {
   padding-top: 100px;
   padding-bottom: 100px;
   margin: auto;
-  height: 312px;
   background: var(--accent-color);
 }
 .end {
   width: 264px;
-  height: 72px;
   margin-right: 120px;
 }
 .logofooter {
