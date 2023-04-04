@@ -178,7 +178,7 @@ ul {
 }
 .blok:hover {
   border: 1px solid var(--knopka-fon);
-  box-shadow: var(--card-hover)
+  box-shadow: var(--card-hover);
 }
 
 .title {
@@ -380,6 +380,7 @@ ul {
     ),
     url(../images/peopleoffice.jpg);
   max-width: 1440px;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
