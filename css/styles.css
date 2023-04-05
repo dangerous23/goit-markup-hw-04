@@ -342,7 +342,7 @@ ul {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
-.partners-item :hover :focus {
+.partners-item:hover{
   fill: var(--button-fon-color);
   border: 1px solid var(--button-fon-color);
 }
