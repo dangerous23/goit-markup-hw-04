@@ -7,8 +7,8 @@
   --button-fon-pasiv: #e7e9fc;
   --knopka-fon: #f4f4fd;
   --our-li: #e7e9fc;
-  --hover-icon:#404BBF;
-  --background-foter-icon:#31D0AA;
+  --hover-icon: #404bbf;
+  --background-foter-icon: #31d0aa;
   --card-hover: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -304,10 +304,10 @@ ul {
 }
 .svg-soc:hover {
   background-color: var(--hover-icon);
- }
- .svg-soc:focus {
+}
+.svg-soc:focus {
   background-color: var(--hover-icon);
- }
+}
 
 /* ------------------------------------partners---------------------------------------- */
 .partners {
@@ -342,7 +342,7 @@ ul {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
-.partners-item:hover{
+.partners-item:hover {
   fill: var(--button-fon-color);
   border: 1px solid var(--button-fon-color);
 }
@@ -489,10 +489,9 @@ ul {
   border-radius: 50%;
   background-color: var(--button-text-color);
 }
-.icon-soc:hover{
+.icon-soc:hover {
   background-color: var(--background-foter-icon);
-
 }
-.icon-soc:focus{
+.icon-soc:focus {
   background-color: var(--background-foter-icon);
 }
